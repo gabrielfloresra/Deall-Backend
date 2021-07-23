@@ -1,0 +1,6 @@
+#import schema.graphql
+
+type Query {
+    companies: [Company!]! @paginate
+    users: [User!]! @paginate
+}
